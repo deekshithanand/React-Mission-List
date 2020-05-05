@@ -1,0 +1,16 @@
+.todolist{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: 1;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+}
+
+.fabbutton {
+
+    margin-left: 15px;
+}

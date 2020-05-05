@@ -1,0 +1,21 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.checked{
+    text-decoration: line-through;
+
+
+}
+.root:hover .hiddens {
+    visibility: visible;
+}
+
+.hiddens {
+    align-items: right;
+    visibility: hidden;
+}
+
